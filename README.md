@@ -22,3 +22,9 @@ git commit -m "this is my first commit"
 ```
 git push -u origin main
 ```
+
+##### [EXTRA]
+5. Adding additional files from Repo
+```
+git pull
+```
