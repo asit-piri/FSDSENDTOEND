@@ -1,6 +1,6 @@
 # End To End Project
 
-Steps:
+#### Steps:
 1. Initialize the git
 ```
 git init
@@ -24,7 +24,7 @@ git push -u origin main
 ```
 
 ##### [EXTRA]
-5. Adding additional files from Repo
+5. Adding additional files from Repo to Local
 ```
 git pull
 ```
