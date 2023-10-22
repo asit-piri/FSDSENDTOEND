@@ -28,3 +28,8 @@ git push -u origin main
 ```
 git pull
 ```
+
+6. Git Bash
+```
+bash your_file_name.sh
+```
