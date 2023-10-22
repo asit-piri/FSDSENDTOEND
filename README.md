@@ -33,3 +33,10 @@ git pull
 ```
 bash your_file_name.sh
 ```
+
+##### Running setup.py
+```
+python setup.py install
+```
+
+###### Another 
