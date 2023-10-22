@@ -39,4 +39,7 @@ bash your_file_name.sh
 python setup.py install
 ```
 
-###### Another 
+##### Installing packages from requirements.txt
+```
+pip install -r requirements.txt
+``` 
