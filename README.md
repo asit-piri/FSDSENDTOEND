@@ -1,4 +1,4 @@
-# This is my End To End project
+# End To End Project
 
 Steps:
 1. Initialize the git
