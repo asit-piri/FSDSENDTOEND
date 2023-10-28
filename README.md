@@ -8,7 +8,7 @@ git init
 
 2. Add the files
 ```
-got add abc.txt
+git add abc.txt
 
 git add .
 ```
