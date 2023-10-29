@@ -13,6 +13,8 @@ LOG_FILEPATH=os.path.join(log_path,LOG_FILE)
 
 logging.basicConfig(level = logging.INFO, 
                     filename = LOG_FILEPATH,
-                    format = "[%(asctime)s] %(lineno)d %(name)s - %(levelname)s - %(message)s"
-                    
+                    format = "[%(asctime)s] %(lineno)d %(name)s - %(levelname)s - %(message)s"                
 )
+
+if __name__ == '__main__':
+    logging.info("Here again, I am testing")
