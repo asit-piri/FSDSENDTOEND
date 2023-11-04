@@ -1,3 +1,5 @@
+# Use this IP to run in web -> http://127.0.0.1:5000
+
 from src.DiamondPricePrediction.pipelines.prediction_pipeline import CustomData,PredictPipeline
 
 from flask import Flask,request,render_template,jsonify
