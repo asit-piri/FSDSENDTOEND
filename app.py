@@ -1,12 +1,8 @@
-# Use this IP to run in web -> http://127.0.0.1:5000
-
 from src.DiamondPricePrediction.pipelines.prediction_pipeline import CustomData,PredictPipeline
 
 from flask import Flask,request,render_template,jsonify
 
-
 app=Flask(__name__)
-
 
 @app.route('/')
 def home_page():
@@ -42,5 +38,6 @@ def predict_datapoint():
         
         return render_template("result.html",final_result=result)
 
+#execution begin
 if __name__ == '__main__':
-    app.run()
+    app.run(host='0.0.0.0',port=8080)
