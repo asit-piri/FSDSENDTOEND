@@ -1,8 +1,8 @@
 pandas
 scikit-learn
 numpy
-ipykernel
 seaborn
+ipykernel
 Flask
 
 -e .
